@@ -1,0 +1,15 @@
+.container__menu-title > h1 {
+  color: white;
+  font-family: 'segoe UI';
+  font-size: 135px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.container__menu-title > hr {
+  margin-top: 20px;
+  margin-bottom: 5px
+}

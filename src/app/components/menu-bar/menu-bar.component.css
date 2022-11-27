@@ -1,0 +1,21 @@
+a:hover {
+  opacity: .9;
+  cursor: pointer;
+  transition: .05s;
+}
+
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.container__menu-bar > ul > li {
+  margin-left: 75px;
+}
