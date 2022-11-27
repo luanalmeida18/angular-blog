@@ -1,19 +1,19 @@
 <div class="container__small-card">
   <div class="smal-card__photo">
     <img
-    src="https://www.indyturk.com/sites/default/files/styles/1368x911/public/article/main_image/2022/07/24/978311-799472884.jpg?itok=Q6h8NCQA"
+    src="{{ photoCover }}"
     alt=""
     width="160px"
     height="100px"
     srcset="">
   </div>
   <div class="small-card__text">
-    <a>
+    <a href="{{linkReference}}" target="_blank" >
       <div class="small-card__title">
-        <p>Lorem ipsum dolor</p>
+        <p> {{ cardTitle }}</p>
       </div>
       <div class="small-card__description">
-        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <h2> {{ cardDescription}} </h2>
       </div>
     </a>
   </div>
