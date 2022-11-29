@@ -14,7 +14,6 @@ export class SmallCardComponent implements OnInit {
   cardDescription:string = ""
   @Input()
   linkReference:string = ""
-  
 
   constructor() {}
   ngOnInit():void {
