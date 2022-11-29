@@ -14,6 +14,14 @@ export class BigCardComponent implements OnInit {
   cardDescription:string = ""
   @Input()
   linkReference:string = ""
+<<<<<<< HEAD
+
+  constructor() {}
+
+  ngOnInit():void {
+  }
+=======
+>>>>>>> 003c0db0a1e9c4b7fb5431d68adf59b85be1d255
 
   constructor() {}
 

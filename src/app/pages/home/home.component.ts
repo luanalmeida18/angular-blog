@@ -11,4 +11,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 003c0db0a1e9c4b7fb5431d68adf59b85be1d255
